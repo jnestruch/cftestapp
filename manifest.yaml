@@ -1,0 +1,6 @@
+---
+applications:
+- name: testapp
+  random-route: true
+  path: testapp
+  memory: 128M
