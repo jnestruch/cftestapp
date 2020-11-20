@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - 15
+install: skip
+jobs:
+ include:
+  script: skip
