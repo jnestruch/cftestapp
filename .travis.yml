@@ -5,3 +5,11 @@ install: skip
 jobs:
  include:
   script: skip
+  deploy:
+   skip_cleanup: true
+   provider: cloudfoundry
+   username: jnestruch@gmail.com
+   password: Koxise69$
+   api: https://api.cf.eu10.hana.ondemand.com
+   organization: cbaa760etrial
+   space: dev
